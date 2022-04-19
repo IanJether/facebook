@@ -1,0 +1,161 @@
+.container{
+    display: flex;
+    flex-direction: row;
+    align-items:center;
+    align-content:center;
+    height: 705px; 
+    width: 100%; 
+    background-color: rgb(240, 240, 248)
+}
+
+h2{
+    color: rgb(0, 106, 245);
+    font-size: 400%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 900%;
+    margin: 0;
+
+    
+}
+
+/*
+#facebookpic{
+    height: 60px;
+    width: 300px;
+
+}*/
+.logo{
+    display: flex;
+    flex-direction: column;
+    margin-left: 380px;
+    margin-right: 10px;
+}
+
+
+
+.input{
+    border: 1px solid #fff;
+    margin: 2px 0;
+    padding: 5px;
+    background-color: #fff;
+    height: 300px;
+    border-radius: 8px;
+    margin-left: 5px;
+}
+#Username{
+    border-radius: 5px;
+    height: 40px;
+    width: 100%;
+    border: 1px solid rgb(212, 208, 208);
+    padding: 3px;
+}
+#password{
+    border-radius: 5px;
+    height: 40px;
+    width: 100%;
+    border: 1px solid rgb(212, 208, 208);
+    padding: 3px;
+}
+.login{
+    display: flex;
+    align-items: center;
+    align-content: center;
+    margin-top: 4px;
+    margin-bottom: 2px;
+    padding:2px;
+}
+.login button{
+    color: #fff;
+}
+#login{
+    background-color: rgb(0, 106, 245);
+    font-size: large;
+    text-align: center;
+    border-radius: 12px;
+    width: 100%;
+    margin-bottom: 20px;
+    height:45px;
+    border: 1px solid rgb(0, 106, 245)
+}
+.container p{
+    font-size: x-large;
+    
+}
+.inputwrap{
+    display: flex;
+    flex-direction: column;
+    width: 380px;
+    margin-left: 200px;
+}
+.inputwrap p{
+    font-size: medium;
+}
+.username{
+    margin: 10px;
+}
+.password{
+    margin: 10px;
+}
+
+.newacc button{
+    color: #fff;
+}
+#newacc{
+    background-color: rgb(112, 170, 24);
+    border-radius: 14px;
+    font-size: medium;
+    font-weight: bold;
+    height: 50px;
+    width: 60%;
+    border: 1px solid rgb(112, 170, 24);
+    
+}
+.forgot{
+    display: flex;
+    align-items: center;
+    align-items: center;
+    justify-content: center;
+}
+.forgot a{
+    text-decoration: none;
+    color: rgb(0, 106, 245);
+}
+.forgot a:hover{
+    text-decoration: underline;
+}
+.create{
+    display: flex;
+    align-items: center;
+    align-items: center;
+    justify-content: center;
+}
+.create a{
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+}
+.create a:hover{
+    text-decoration: underline;
+}
+.newacc{
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+}
+
+input hr{
+    color: rgb(206, 201, 201);
+}
+.lang{
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    margin:1px auto 1px auto;
+}
+.lang p{
+    color: rgb(34, 31, 31);
+    font-size: small;
+}
+
+
