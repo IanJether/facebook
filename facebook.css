@@ -17,13 +17,6 @@ h2{
 
     
 }
-
-/*
-#facebookpic{
-    height: 60px;
-    width: 300px;
-
-}*/
 .logo{
     display: flex;
     flex-direction: column;
@@ -41,21 +34,41 @@ h2{
     height: 300px;
     border-radius: 8px;
     margin-left: 5px;
+    box-shadow:  3px 3px 19px rgb(145, 138, 138);
 }
 #Username{
+    border: 1px solid rgb(212, 208, 208);
     border-radius: 5px;
     height: 40px;
     width: 100%;
-    border: 1px solid rgb(212, 208, 208);
     padding: 3px;
+    outline: none;
+    transition: 0.5s;
+}
+#Username:focus{
+    border: 1px solid rgb(0, 106, 245)
 }
 #password{
+    border: 1px solid rgb(212, 208, 208);
     border-radius: 5px;
     height: 40px;
     width: 100%;
-    border: 1px solid rgb(212, 208, 208);
-    padding: 3px;
+    padding: 3px; 
+    outline: none;
+    transition: 0.5s;
 }
+#password:focus{
+    border:1px solid rgb(0, 106, 245)
+}
+#Username::placeholder{
+    padding-left: 13px;
+    color: rgb(170, 165, 165);
+}
+#password::placeholder{
+    padding-left: 13px;
+    color: rgb(170, 165, 165);
+}
+
 .login{
     display: flex;
     align-items: center;
@@ -71,7 +84,7 @@ h2{
     background-color: rgb(0, 106, 245);
     font-size: large;
     text-align: center;
-    border-radius: 12px;
+    border-radius: 9px;
     width: 100%;
     margin-bottom: 20px;
     height:45px;
@@ -102,7 +115,7 @@ h2{
 }
 #newacc{
     background-color: rgb(112, 170, 24);
-    border-radius: 14px;
+    border-radius: 9px;
     font-size: medium;
     font-weight: bold;
     height: 50px;
@@ -157,5 +170,4 @@ input hr{
     color: rgb(34, 31, 31);
     font-size: small;
 }
-
 
