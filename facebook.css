@@ -24,26 +24,31 @@ h2{
     margin-right: 10px;
 }
 
-
+input{
+    
+}
 
 .input{
     border: 1px solid #fff;
-    margin: 2px 0;
-    padding: 5px;
+    margin: 5px 0;
+    padding: 7px;
     background-color: #fff;
-    height: 300px;
+    height: 340px;
     border-radius: 8px;
     margin-left: 5px;
+    margin-right: 5px;
     box-shadow:  3px 3px 19px rgb(145, 138, 138);
+    padding-right: 7px;
 }
 #Username{
     border: 1px solid rgb(212, 208, 208);
     border-radius: 5px;
     height: 40px;
-    width: 100%;
+    width: 95%;
     padding: 3px;
     outline: none;
     transition: 0.5s;
+    padding-left: 13px;
 }
 #Username:focus{
     border: 1px solid rgb(0, 106, 245)
@@ -52,20 +57,21 @@ h2{
     border: 1px solid rgb(212, 208, 208);
     border-radius: 5px;
     height: 40px;
-    width: 100%;
+    width: 95%;
     padding: 3px; 
     outline: none;
     transition: 0.5s;
+    padding-left: 13px;
 }
 #password:focus{
     border:1px solid rgb(0, 106, 245)
 }
 #Username::placeholder{
-    padding-left: 13px;
+   
     color: rgb(170, 165, 165);
 }
 #password::placeholder{
-    padding-left: 13px;
+    
     color: rgb(170, 165, 165);
 }
 
@@ -73,7 +79,7 @@ h2{
     display: flex;
     align-items: center;
     align-content: center;
-    margin-top: 4px;
+    margin-top: 0px;
     margin-bottom: 2px;
     padding:2px;
 }
@@ -86,7 +92,7 @@ h2{
     text-align: center;
     border-radius: 9px;
     width: 100%;
-    margin-bottom: 20px;
+    margin-bottom: 15px;
     height:45px;
     border: 1px solid rgb(0, 106, 245)
 }
@@ -120,14 +126,18 @@ h2{
     font-weight: bold;
     height: 50px;
     width: 60%;
-    border: 1px solid rgb(112, 170, 24);
-    
+    border: 1px solid rgb(112, 170, 24);   
+}
+button a{
+    text-decoration: none;
+    color: #fff;
 }
 .forgot{
     display: flex;
     align-items: center;
     align-items: center;
     justify-content: center;
+    margin-bottom: 10px;
 }
 .forgot a{
     text-decoration: none;
@@ -135,6 +145,11 @@ h2{
 }
 .forgot a:hover{
     text-decoration: underline;
+}
+
+.line{
+    margin-top: 25px;
+    margin-bottom: 25px;
 }
 .create{
     display: flex;
@@ -170,4 +185,6 @@ input hr{
     color: rgb(34, 31, 31);
     font-size: small;
 }
+.uil uil-eye-slash toggle{
 
+}

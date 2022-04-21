@@ -4,7 +4,8 @@
         <title> 
             Facebook landing page
         </title>
-        <link rel="stylesheet" href="facebook.css">
+        <link rel="stylesheet" href="facebook.css"
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
     </head>
     <body>
         <div class="container">
@@ -24,23 +25,26 @@
                             <div class="input">
                                 <div class="username">
                                     <input type="text" id="Username" name="Username" placeholder="Email Adress or Phone Number">
-                            </div>   
-                            <div class="password">  
+                                 </div>   
+                                 <div class="password">  
                                     <input type="password" id="password" name="password" placeholder="Password">
-                            </div> 
+                                    <i class="far fa-eye" id="togglePassword"></i>
+                                </div> 
                                     <div class="login">
-                                        <button type="submit" id="login">Log in</button>
+                                        <button type="submit" id="login">Log in</button> 
                                     </div>
                                     <div class="forgot">
-                                        <a href="">Forgotten Password?</a>
-                                </div>
-                                <hr>
-                                    <div class="newacc">
-                                        <button type="button" id="newacc">Create New Account</button>
+                                        <a href="https://www.facebook.com/login/identify/?ctx=recover&ars=facebook_login&from_login_screen=0">Forgotten Password?</a>
                                     </div>
-                            </div>
+                                    <div class="line">
+                                         <hr>
+                                    </div>
+                                    <div class="newacc">
+                                        <button type="button" id="newacc"><a href="https://www.facebook.com/r.php"> Create New Account</a></button>
+                                    </div>
+                                 </div>
                             <div class="create">
-                                <p><a href="">Create a page</a> for a celebrity brand or business</p>
+                                <p><a href="https://www.facebook.com/pages/create/?ref_type=registration_form">Create a page</a> for a celebrity brand or business</p>
                             </div>
                         </div> 
              
@@ -72,6 +76,20 @@
                 </div>
                 <p id>@ copyright Meta 2022</p>
             </div>
+
+            <script>
+                const togglePassword = document.querySelector('#togglePassword');
+  const password = document.querySelector('#id_password');
+ 
+  togglePassword.addEventListener('click', function (e) {
+    // toggle the type attribute
+    const type = password.getAttribute('type') === 'password' ? 'text' : 'password';
+    password.setAttribute('type', type);
+    // toggle the eye slash icon
+    this.classList.toggle('fa-eye-slash');
+});
+            </script>
+          
         
     </body>
 </html>
